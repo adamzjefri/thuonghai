@@ -6,13 +6,13 @@ select fav in "${foods[@]}"; do
         "US")
             wget https://raw.githubusercontent.com/adamzjefri/thuonghai/master/ngrok-us-linux.sh
             chmod +x ngrok-us-linux.sh    
-	    ./ngrok-us-linux.sh 33899
+	    ./ngrok-us-linux.sh 3389
             break
             ;;
         "AP")
             wget https://raw.githubusercontent.com/adamzjefri/thuonghai/master/ngrok-ap-linux.sh
             chmod +x ngrok-ap-linux.sh    
-	    ./ngrok-ap-linux.sh 33899
+	    ./ngrok-ap-linux.sh 3389
             break
             ;;
         *) echo "invalid option $REPLY";;
